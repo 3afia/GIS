@@ -26,7 +26,7 @@ for i in countries_list:
 
 
 #save the selected points to a new feature layer
-	arcpy.FeatureClassToFeatureClass_conversion('cities_layer', outputs, 'cities_in_{}'.format(i))
+	arcpy.FeatureClassToFeatureClass_conversion('cities_layer', outpath, 'cities_in_{}'.format(i))
 #layer_from, save_folder, layer_to
 
 
